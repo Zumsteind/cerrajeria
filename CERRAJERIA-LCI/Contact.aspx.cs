@@ -27,13 +27,15 @@ namespace CERRAJERIA_LCI
         {
             dominio_email.emailservice emailservice = new dominio_email.emailservice();
 
-            emailservice.armarcorreoparaempresa(consulta_cliente.Text,contacto_cliente.Text);
+            emailservice.armarcorreoparaempresa(txt_nombre.Text,Txt_email.Text,txt_tel.Text,txt_consulta.Text);
 
             try
             {
                 emailservice.enviarmail();
-                consulta_cliente.Text = "";
-                contacto_cliente.Text = "";
+                txt_nombre.Text = "";
+                Txt_email.Text = "";
+                txt_tel.Text = "";
+                txt_consulta.Text = "";
             }
             catch (Exception ex)
             {

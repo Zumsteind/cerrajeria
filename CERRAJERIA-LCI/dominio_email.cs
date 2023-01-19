@@ -39,7 +39,7 @@ namespace CERRAJERIA_LCI
 
             }
 
-            public void armarcorreoparaempresa(string cuerpo, string mailcliente)
+            public void armarcorreoparaempresa(string nombre, string mail, string tel, string consulta)
                // public void armarcorreoparaempresa(string asunto, string cuerpo, string mailcliente) puede ser asi con asunto
             {
                 email = new MailMessage();
@@ -49,7 +49,11 @@ namespace CERRAJERIA_LCI
                                                     // email.To.Add("zumsteind@gmail.com");//a quien se lo envia
                 email.Subject = "Consulta CERRAJERIA LCI"; //aca se coloca el asunto. txt asunto
                 email.IsBodyHtml = true;
-                email.Body = "<h1>Usted tiene una consulta nueva </h1> <br/> <h4>" + cuerpo + "</h4>  <br/>  <br/> <h2>Contacto cliente: </h2> <h2>" + mailcliente + "</h2>";
+                email.Body = "<h1>Usted tiene una consulta nueva </h1> <br/>" +
+                    " <h4>Nombre y apellido: " + nombre +
+                    " </h4> <h4>Email: " + mail +
+                    "</h4> <h4>Tel: " + tel +
+                    "</h4> <h4>Consulta:  </h4>" + consulta;
                 //email.Body = cuerpo;
 
 
