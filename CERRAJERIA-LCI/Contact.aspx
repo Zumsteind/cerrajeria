@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
   
-<div class="contenedor" style="text-align:center">
+    <div class="contenedor" style="text-align:center">
 
      <div class="mb-3">
             <br />
@@ -55,6 +55,7 @@
         <div class="mb-3">  
                  
             <asp:Button Text="Enviar" ID="btn_enviar" class="btn btn-primary" OnClick="btn_enviar_Click" runat="server" Height="38px" Width="122px" />
+
 
         </div>
 

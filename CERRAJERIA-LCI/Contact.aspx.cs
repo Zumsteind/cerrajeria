@@ -36,10 +36,13 @@ namespace CERRAJERIA_LCI
             {
                 //de esta forma luego de ser enviado, cambiamos lo que contiene adentro los textbox
                 emailservice.enviarmail();
+                
+              
                 txt_nombre.Text = "";
                 Txt_email.Text = "";
                 txt_tel.Text = "";
                 txt_consulta.Text = "";
+                Response.Redirect("/mensaje_enviado.aspx");
             }
             catch (Exception ex)
             {
