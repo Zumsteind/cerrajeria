@@ -11,11 +11,18 @@
 
     <br /><br />
 
-            <div class="box" >
-              <div>  <h2>Cargaste con éxito tu consulta</h2> </div>
-              <div> <h3>Muchas gracias por su consulta, En breve un asesor comercial de CLI se pondrá en contacto con usted.</h3> </div>
-            </div>
+            
+              <div  class="box">  <h2>Cargaste con éxito tu consulta</h2> </div>
 
-    <br /><br /><br /><br />
+              <div  class="box"> <h4>Muchas gracias por su consulta, En breve un asesor comercial de LCI se pondrá en contacto con usted.</h4> </div>
+          
+
+    <br />
+     
+    <div style="align-content:center; text-align:center;"> 
+            <asp:HyperLink ID="hpl_volver" runat="server" NavigateUrl="~/Contact.aspx">Volver    </asp:HyperLink>  
+           <asp:HyperLink ID="hpl_menu" runat="server" NavigateUrl="~/Default.aspx">Pagina Inicio</asp:HyperLink>
+         </div>
+    <br /><br /><br />
 
 </asp:Content>

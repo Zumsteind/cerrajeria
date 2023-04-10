@@ -15,7 +15,7 @@
     <img style="width:350px" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEUMFmniHaAWw7RZcNDUaB2Rat6PAWYK-m5dc7uf7sJH1YFUFsTq4Vzat3D5ExtoSPxI&usqp=CAU" alt="Alternate Text" />
     
     <div> 
-        <h2 style="COLOR:black; text-align:center">Somos Especialistas a todo tipos de Llaves y cerraduras.</h2>
+        <h2 style="COLOR:black; text-align:center">Somos Especialistas en todo tipos de Llaves y cerraduras.</h2>
         <h3 style="COLOR:black; text-align:center">Automotriz, Casas, Bancarias, Caja Fuerte.</h3>
 
         </div>
